@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+header{
+    padding: 50px 60px;
+    background-image:url(./Images/header-background.jpeg);
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section{
+    padding:60px;
+}
+header h1 a{
+    margin-top: 20px;
+    text-decoration:none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header h1 a{
+    
+    color:lavender;
+}
+header nav ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav a{
+    margin:12px;
+    padding: 10px;
+    text-decoration: none;
+    color:lavender;
+}
+footer{
+    background-color: blueviolet;
+}
+.create-border{
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width:50%;
+    border-color:deeppink;
+}
+.my-bio{
+    text-align: center;
+}
+.my-bio h2{
+    padding:10px;
+
+}
+
+
+
