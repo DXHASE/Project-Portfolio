@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: grey;
+    background-color: lightslategray;
 }
 header{
     padding: 50px 60px;
@@ -15,16 +15,13 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-section{
-    padding:60px;
-}
+
 header h1 a{
     margin-top: 20px;
     text-decoration:none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header h1 a{
-    
     color:lavender;
 }
 header nav ul{
@@ -41,9 +38,23 @@ header nav a{
     color:lavender;
 }
 footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
     background-color: blueviolet;
 }
-.create-border{
+#contact-me h2{
+    background-color: blueviolet;
+}
+#contact-me ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    list-style: none;
+    background-color:deeppink;
+}
+.bio-border{
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
@@ -53,11 +64,40 @@ footer{
 }
 .my-bio{
     text-align: center;
+    padding:50px;
 }
 .my-bio h2{
     padding:10px;
 
 }
+.my-bio p{
+    border:3px solid;
+}
+.my-projects{
+    padding: 35px 0px;
 
+}
+.project-border{
+    border-right:5px solid;
+    border-bottom: 5px solid;
+    padding:10px;
+    text-align:center;
+    width:20%;
+    border-color: deeppink;
+}
+.my-projects div a{
+    padding:10px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.my-projects div h3{
+    text-align: center;
+}
+.my-projects a{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
