@@ -52,7 +52,7 @@ footer{
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:center;
     list-style: none;
     background-color:lavender;
@@ -90,18 +90,17 @@ footer{
     justify-content:center;
     flex-direction:row;
     align-items: center;
-    background-color:
+    
 }
 .project-border{
-    border-right:5px solid;
     border-bottom: 5px solid;
     padding: 20px;
     text-align:left;
-    border-color: black;
+    border-color: lavender;
 }
 .my-projects div {
     margin: 40px;
-    background-color: lightslategray;
+    background-color: lavender;
     border-top: 10px;
 }
 .my-projects div a:hover{
@@ -110,7 +109,7 @@ footer{
 
 .my-projects div h3{
     padding: 5px;
-    color:lavender;
+    color:slategray;
     text-align:center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
